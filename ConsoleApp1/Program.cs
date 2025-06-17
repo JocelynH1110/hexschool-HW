@@ -125,3 +125,85 @@ Console.WriteLine($"身高 {height} , 體重 {weight} \nBMI = {weight / Math.Pow
 // {
 // Console.WriteLine("輸入不得為負數");
 // }
+
+// ====習題====
+// 2-1
+/*
+Console.Write("請輸入 x : ");
+double x = Convert.ToDouble(Console.ReadLine());
+Console.Write("請輸入 y : ");
+double y = Convert.ToDouble(Console.ReadLine());
+
+if (x >= y)
+{
+    Console.WriteLine(" x >= y , 故印出 x 值 "+ x);
+}
+else
+{
+    Console.WriteLine(" x < y , 故印出 y 值 "+y);
+}
+*/
+
+// 2-2 
+/*
+Console.Write("請輸入 x : ");
+double x = Convert.ToDouble(Console.ReadLine());
+Console.Write("請輸入 y : ");
+double y = Convert.ToDouble(Console.ReadLine());
+
+if (x > 0 && y > 0)
+{
+    Console.Write("z = 1");
+}else if (x < 0 && y < 0)
+{
+    Console.WriteLine("z = -1");
+}
+else
+{
+    Console.WriteLine("z = 0");
+}
+*/
+
+// 2-3
+/*
+Console.Write("請輸入 x : ");
+double x = Convert.ToDouble(Console.ReadLine());
+Console.Write("請輸入 y : ");
+double y = Convert.ToDouble(Console.ReadLine());
+Console.Write("請輸入 u : ");
+double u = Convert.ToDouble(Console.ReadLine());
+Console.Write("請輸入 v : ");
+double v = Convert.ToDouble(Console.ReadLine());
+
+if ((x + y) > (u + v))
+{
+    double z = x + y;
+    Console.WriteLine(z);
+}
+else
+{
+    double z = u + v;
+    Console.WriteLine(z);
+}
+*/
+
+// 2-4
+Console.Write("請輸入 x : ");
+var x = Convert.ToDouble(Console.ReadLine());
+Console.Write("請輸入 y : ");
+var y = Convert.ToDouble(Console.ReadLine());
+Console.Write("請輸入 u : ");
+var u = Convert.ToDouble(Console.ReadLine());
+Console.Write("請輸入 v : ");
+var v = Convert.ToDouble(Console.ReadLine());
+
+if ((x + y) / (u + v) >= 2)
+{
+    var z = x + y;
+    Console.Write($"{z:F2}");
+}
+else
+{
+    var z = u + v;
+    Console.Write($"{z:F2}");
+}
