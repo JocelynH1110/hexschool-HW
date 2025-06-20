@@ -188,22 +188,63 @@ else
 */
 
 // 2-4
-Console.Write("請輸入 x : ");
-var x = Convert.ToDouble(Console.ReadLine());
-Console.Write("請輸入 y : ");
-var y = Convert.ToDouble(Console.ReadLine());
-Console.Write("請輸入 u : ");
-var u = Convert.ToDouble(Console.ReadLine());
-Console.Write("請輸入 v : ");
-var v = Convert.ToDouble(Console.ReadLine());
+// Console.Write("請輸入 x : ");
+// var x = Convert.ToDouble(Console.ReadLine());
+// Console.Write("請輸入 y : ");
+// var y = Convert.ToDouble(Console.ReadLine());
+// Console.Write("請輸入 u : ");
+// var u = Convert.ToDouble(Console.ReadLine());
+// Console.Write("請輸入 v : ");
+// var v = Convert.ToDouble(Console.ReadLine());
 
-if ((x + y) / (u + v) >= 2)
+// if ((x + y) / (u + v) >= 2)
+// {
+// var z = x + y;
+// Console.Write($"{z:F2}");
+// }
+// else
+// {
+// var z = u + v;
+// Console.Write($"{z:F2}");
+// }
+// var ans = 10;
+// var x = false;
+// do
+// {
+// Console.Write("Number: ");
+// var num = Convert.ToInt32(Console.ReadLine());
+// if (num == ans)
+// {
+// Console.WriteLine("答對");
+// x = true;
+// }
+// else if (num > ans)
+// {
+// Console.WriteLine("太大");
+// }
+// else
+// {
+// Console.WriteLine("太小");
+// }
+// } while (x == false);
+// var sum = 0;
+// for (var i = 0; i <= 100; i++) sum += i;
+// Console.WriteLine(sum);
+
+
+// var i = 0;
+// var sum = 0;
+// while (i <= 100)
+// {
+// sum += i;
+// i++;
+// }
+
+// Console.WriteLine(sum);
+var sum = 0;
+for (var i = 0; i <= 100; i++)
 {
-    var z = x + y;
-    Console.Write($"{z:F2}");
+    sum += i;
 }
-else
-{
-    var z = u + v;
-    Console.Write($"{z:F2}");
-}
+
+Console.WriteLine(sum);
