@@ -241,10 +241,53 @@ else
 // }
 
 // Console.WriteLine(sum);
-var sum = 0;
-for (var i = 0; i <= 100; i++)
-{
-    sum += i;
-}
+// var sum = 0;
+// for (var i = 0; i <= 100; i++)
+// {
+    // sum += i;
+// }
 
-Console.WriteLine(sum);
+// Console.WriteLine(sum);
+
+// string[] students={"A","B","C","D"};
+// foreach (string s in students)
+// {
+    // Console.WriteLine(s);
+// }
+
+/*int[]  data={1,2,3};
+foreach (int d in data)
+{
+    if (data[0] > data[1])
+    {
+        if (data[0] > data[2])
+        {
+            Console.WriteLine(data[0]);
+        }
+        else if(data[1]>data[2])
+        {
+            Console.WriteLine(data[1]);
+        }
+        else
+        {
+            Console.WriteLine(data[2]);
+        }
+    }else if(data[1]>data[2])
+    {
+        
+    }
+}*/
+
+// int[] data={2,4,5,5,6};
+// for (int i = 2; i < data.Length; i++)
+// {
+    // Console.WriteLine(data[i]);
+// }
+
+// int[,] data=new int[,]{{1,2,3},{3,2,1}};
+// int[,] data2=new int[,]{{1,1,1},{2,2,1}};
+int[] arrayV=new int[5];
+for (int i = 0; i < 5; i++)
+{
+    Console.ReadLine();
+}
