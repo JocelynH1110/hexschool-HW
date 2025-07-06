@@ -1,6 +1,7 @@
 // See https://aka.ms/new-console-template for more information
 
 using System.Text;
+using System.Text.RegularExpressions;
 
 Console.OutputEncoding = Encoding.UTF8;
 
@@ -286,8 +287,23 @@ foreach (int d in data)
 
 // int[,] data=new int[,]{{1,2,3},{3,2,1}};
 // int[,] data2=new int[,]{{1,1,1},{2,2,1}};
-int[] arrayV=new int[5];
-for (int i = 0; i < 5; i++)
-{
-    Console.ReadLine();
-}
+// int[] arrayV=new int[5];
+// for (int i = 0; i < 5; i++)
+// {
+    // Console.ReadLine();
+// }
+
+// Ch6_練習：輸入 T 結尾的英文字
+    // string input =Console.ReadLine();
+
+    // if (Regex.IsMatch(input, "T$"))
+    // {
+        // Console.WriteLine(input);
+    // }
+    
+    string[] word=new string[3]{"A","B","C"};
+    for (int i = 0; i < word.Length; i++)
+    {
+        Console.WriteLine(word[i]);
+    }
+    Console.WriteLine(word.Length);
