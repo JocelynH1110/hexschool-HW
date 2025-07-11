@@ -1,5 +1,6 @@
 // See https://aka.ms/new-console-template for more information
 
+using System.Diagnostics.CodeAnalysis;
 using System.Text;
 using System.Text.RegularExpressions;
 
@@ -301,9 +302,14 @@ foreach (int d in data)
         // Console.WriteLine(input);
     // }
     
-    string[] word=new string[3]{"A","B","C"};
-    for (int i = 0; i < word.Length; i++)
-    {
-        Console.WriteLine(word[i]);
-    }
-    Console.WriteLine(word.Length);
+    // string[] word=new string[3]{"A","B","C"};
+    // for (int i = 0; i < word.Length; i++)
+    // {
+        // Console.WriteLine(word[i]);
+    // }
+    // Console.WriteLine(word.Length);
+    
+    DateTime d=DateTime.Now;
+    DateTime past = new DateTime(d.Year, 7, 5);
+    int dif = (d - past).Days;
+    Console.WriteLine(dif);
