@@ -2,7 +2,7 @@ using System.Text;
 
 Console.OutputEncoding = Encoding.UTF8;
 // 檔案 補充 3：讀取fc4bb.csv，並將此資料轉成HTML TABLE 格式，並儲存到指定的HTML檔裡。
-string[] csv=(File.ReadAllLines("11c771af-b78d-4692-982d-723ae7453463.csv"));
+string[] csv=(File.ReadAllLines("fc4bb.csv"));
 
 StringBuilder html=new StringBuilder();
 
