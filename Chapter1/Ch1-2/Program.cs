@@ -2,6 +2,11 @@ using System.Text;
 
 Console.OutputEncoding = Encoding.UTF8;
 
+// 1-2.假設有一組二元一次方程式如下：
+// 	a1x+b1y=c1  ，  a1x+b2y=c2
+// 	此組方程式的解如下：
+// 	x  ，  
+// 寫一程式，輸入此方程式變數之係數，輸出方程式的解。
 Console.Write("請輸入係數 a1 : ");
 var a1 = Convert.ToDouble(Console.ReadLine());
 Console.Write("請輸入係數 b1 : ");

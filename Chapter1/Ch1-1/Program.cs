@@ -2,6 +2,7 @@ using System.Text;
 
 Console.OutputEncoding = Encoding.UTF8;
 
+// 1-1.寫一程式，輸入a,b,c,d，計算((𝑎+𝑏))/((𝑐−𝑑))×2。
 Console.Write("輸入 a : ");
 var a = Convert.ToDouble(Console.ReadLine());
 Console.Write("輸入 b : ");
