@@ -7,7 +7,7 @@ Console.OutputEncoding = Encoding.UTF8;
 HashSet<string> w = new HashSet<string>();
 
 Console.WriteLine("請輸入 10 組字 ");
-for (int i = 0; i < 10; i++)
+for (int i = 0; i < 3; i++)
 {
     Console.Write($"請輸入第 {i+1} 組字： ");
     string input=Console.ReadLine();
@@ -21,4 +21,9 @@ for (int i = 0; i < 10; i++)
         w.Add(input);
     }
    
+}
+
+foreach (var v in w)
+{
+    Console.WriteLine(v);
 }
