@@ -11,6 +11,7 @@ public static class DateTimeExtensions
 {
     public static bool IsLeapYear(this DateTime dt)
     {
-        return dt.Year % 400 == 0 || (dt.Year % 4 == 0 && dt.Year % 100 != 0);
+        DateTime nextYear=dt.AddYears(1);
+        return nextYear.Year % 400 == 0 || (nextYear.Year % 4 == 0 && nextYear.Year % 100 != 0);
     }
 }

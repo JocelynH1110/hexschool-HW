@@ -35,5 +35,5 @@ foreach (var content in csv)
 html.AppendLine("</table>");
 html.AppendLine("</body>\n </html>");
 
-File.WriteAllText("fc4bb.csv",html.ToString());
+File.WriteAllText("fc4bb.csv.html",html.ToString());
 Console.Write(File.ReadAllText("fc4bb.csv"));
